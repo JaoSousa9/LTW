@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form method="get">
+            <label> Name: <input type="text" name="Name" placeholder="your name" required="required" /></label>
+            <label>
+                Address: <input type="text" name="address" placeholder="your address" required="required" />
+            </label>
+            <label
+                >Age: <input type="radio" name="" value="" checked="checked" />18
+                <input type="radio" name="" value="19-35" />19-35 <input type="radio" name="" value="19-35" />36-49
+                <input type="radio" name="" value="19-35" />50></label
+            >
+            <label
+                ><select name="countries" required="required">
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain" selected>Spain</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                </select>
+            </label>
+            <label>
+                <input name="interest" list="interests" value="Food" />
+                <datalist id="interests">
+                    <option>Games</option>
+                    <option selected>Food</option>
+                    <option>Travel</option>
+                    <option>Read</option>
+                </datalist>
+            </label>
+            <input type="submit" value="Send" />
+        </form>
+    </body>
+</html>

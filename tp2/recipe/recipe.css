@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Ruda:wght@400..900&display=swap');
+
+body {
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.title {
+    font-size: 9rem;
+    margin: 0;
+    font-family: Imperial Script;
+}
+
+.main {
+    background-color: antiquewhite;
+}
+
+h3 {
+    font-family: Ruda;
+    text-align: right;
+    font-size: 2rem;
+    margin: 0;
+    border-bottom: 3px solid black;
+}
+
+img {
+    width: 500px;
+}
+
+.time_box {
+    margin: 3%;
+}
+.time {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: dotted;
+    background-color: lightpink;
+    border-color: palevioletred;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right-style: solid;
+}
