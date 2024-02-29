@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,700');
+
+body{
+    padding: 1em;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: Lora;
+}
+
+body > header{
+    padding:1em;
+    background-color: #046DD5;
+}
+
+body > header > #signup :nth-child(2){
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 2px solid white;
+}
+
+input, label{
+    display: none;
+}
+
+ul{
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+a{ 
+    outline-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+#menu > ul a{
+    outline-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+#menu > ul li:nth-child(1){
+    padding: 10px;
+    border-top: 5px solid #E1493E;
+}
+
+#menu > ul li:nth-child(2){
+    padding: 10px;
+    border-top: 5px solid #8ABA56;
+}
+
+#menu > ul li:nth-child(3){
+    padding: 10px;
+    border-top: 5px solid #5B4282;
+}
+
+#menu > ul li:nth-child(4){
+    padding: 10px;
+    border-top: 5px solid #FF8932;
+}
+
+#menu > ul li:nth-child(5){
+    padding: 10px;
+    border-top: 5px solid #19B6E9;
+}
+
+#menu > ul li:nth-child(6){
+    padding: 10px;
+    border-top: 5px solid #E84C8B;
+}
+
+#related{
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #2A2F33;
+    color: white;
+}
+  
+#news{
+    position: relative;
+}
+
+#news header{
+    font-size: larger;
+    text-shadow: 5px 5px 3px black;
+    position: absolute;
+    max-width: 10em;
+    padding: 1em;
+    
+}
+
+article p{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+footer{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #F4655F;
+    color: white;
+}
+
+body > footer:nth-child(5){
+    padding: 0.1em;
+    background-color: #2A2F33;
+}
+
+#news > article > p:nth-child(3)::first-letter{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.tags a, .comments{
+    border-bottom: 1px solid white;
+}
+
+.author::before{
+    content:"By ";
+}
+
+.comments::after{
+    content: " comments";
+}
+
+.date{
+    padding: 1em;
+}
